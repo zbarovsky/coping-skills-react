@@ -1,41 +1,32 @@
-// {
-//   "extends": "@tsconfig/node14/tsconfig.json",
-//   "$schema": "https://json.schemastore.org/tsconfig",
-//   "display": "Node 14",
- 
-//   "compilerOptions": {
-//     "lib": ["es2020"],
-//     "module": "commonjs",
-//     "target": "es2020",
-//     "jsx": "react",
-//     "strict": true,
-//     "esModuleInterop": true,
-//     "skipLibCheck": true,
-//     "forceConsistentCasingInFileNames": true
-//   }  
-// }
-
 {
   "compilerOptions": {
-      "outDir": "./dist/", // path to output directory
-      "sourceMap": true, // allow sourcemap support
-      "strictNullChecks": true, // enable strict null checks as a best practice
-      "module": "commonjs", // specify module code generation
-      "jsx": "react", // use typescript to transpile jsx to js
-      "target": "es5", // specify ECMAScript target version
-      "allowJs": true, // allow a partial TypeScript and JavaScript codebase
-      "moduleResolution": "node",
-      "allowSyntheticDefaultImports": true,
-      "lib": [
-          "es6",
-          "dom"
-      ],
-      "types": [
-          "node"
-      ]
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "module": "esnext",
+    "jsx": "react-jsx",
+    "target": "es5",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "types": [
+      "node"
+    ],
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
   },
   "include": [
-      "./src/",
-      "./public/"
+    "./src/",
+    "./public/"
   ]
 }
