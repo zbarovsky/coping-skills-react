@@ -33,6 +33,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace
 }
 
+ul {
+  list-style-type: none;
+}
+
 .nav-container {
   width: 100%;
   display: flex;
@@ -43,10 +47,6 @@ code {
   width: 100%;
   text-align: right;
 
-  ul {
-    list-style-type: none;
-  }
-
   li {
     display: inline;
     padding: 0.5em;
@@ -55,7 +55,26 @@ code {
   }
 }
 
+.footer-container {
+  position: fixed;
+  display: flex;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: $midnight-blue;
+  color: $baby-blue
+} 
 
+.copyright {
+  width: 50%;
+  text-align: left;
+}
 
-  
-
+.footer-social-media {
+  width: 50%;
+  text-align: right;
+  li {
+    display: inline;
+    padding: 0.5em;
+  }
+}
