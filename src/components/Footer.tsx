@@ -4,7 +4,7 @@ function Footer() {
 
     return (
         <div>
-
+            <p>footer shit goes here</p>
         </div>
     )
 }
