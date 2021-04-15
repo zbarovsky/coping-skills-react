@@ -3,9 +3,10 @@ import React, {useState, useEffect} from 'react'
 
 function CopingSkill() {
 
-    const [copingSkill, setCopingSkill] = useState<object>()
+    const [copingSkill, setCopingSkill] = useState<string>('')
 
-    useEffect(() => {
+    function GenerateSkill(e:any):void {
+        e.preventDefault()
         let copingSkillId: number = Math.floor(Math.random() * 100)
         console.log(copingSkillId)
         axios.get(`http://127.0.0.1:5000/api/copingskill/`, {params: {id: copingSkillId}})
@@ -13,11 +14,20 @@ function CopingSkill() {
             console.log(response, typeof response)
             setCopingSkill(response.data.skill)
         })
-    }, [])
+    }
 
     return (
-        <div className="coping-skill">
-            {copingSkill}
+        <div className="coping-skill-container">
+            <div className='instructions'>
+                <h2>How it Works</h2>
+                <p>Need a quick coping skill? Click the button below to get a brand new skill to try out. Don't like that one? Click it again until you find one that works for you</p>
+            </div>
+            <div className='coping-skill'>
+                <p>{copingSkill}</p>
+            </div>
+            <div className='coping-skills-button'>
+                <button onClick={GenerateSkill}>Generate Coping Skill</button>
+            </div>
         </div>
     )
 }
