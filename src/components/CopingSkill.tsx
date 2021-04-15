@@ -9,7 +9,7 @@ function CopingSkill() {
         e.preventDefault()
         let copingSkillId: number = Math.floor(Math.random() * 100)
         console.log(copingSkillId)
-        axios.get(`http://127.0.0.1:5000/api/copingskill/`, {params: {id: copingSkillId}})
+        axios.get(`${process.env.REACT_APP_API}/copingskill/`, {params: {id: copingSkillId}})
         .then(response => {
             console.log(response, typeof response)
             setCopingSkill(response.data.skill)
