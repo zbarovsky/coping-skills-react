@@ -1,9 +1,12 @@
 import axios from 'axios'
 import React, {useState, useEffect} from 'react'
+import {useSpring, animated} from 'react-spring'
 
 function CopingSkill() {
 
     const [copingSkill, setCopingSkill] = useState<string>('')
+
+    // const spring:any = useSpring({opacity: 1, from: {opacity: 0}})
 
     function GenerateSkill(e:any):void {
         e.preventDefault()
@@ -23,10 +26,11 @@ function CopingSkill() {
                 <p>Need a quick coping skill? Click the button below to get a brand new skill to try out. Don't like that one? Click it again until you find one that works for you</p>
             </div>
             <div className='coping-skill'>
-                <p>{copingSkill}</p>
+                {/* <animated.p style={spring}>{copingSkill}</animated.p> */}
+                <p className='skill'>{copingSkill}</p>
             </div>
             <div className='coping-skills-button'>
-                <button onClick={GenerateSkill}>Generate Coping Skill</button>
+                <button className='button' onClick={GenerateSkill}>Generate Coping Skill</button>
             </div>
         </div>
     )
