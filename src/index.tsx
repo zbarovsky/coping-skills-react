@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <Router basename='/coping-skills-react'>
         <App />
     </Router>
   </React.StrictMode>,
