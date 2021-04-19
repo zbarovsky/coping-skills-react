@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/coping-skills-react/static/css/main.5080d5f2.chunk.css",
-    "main.js": "/coping-skills-react/static/js/main.9cf255df.chunk.js",
-    "main.js.map": "/coping-skills-react/static/js/main.9cf255df.chunk.js.map",
+    "main.js": "/coping-skills-react/static/js/main.d937e4e7.chunk.js",
+    "main.js.map": "/coping-skills-react/static/js/main.d937e4e7.chunk.js.map",
     "runtime-main.js": "/coping-skills-react/static/js/runtime-main.40a129cd.js",
     "runtime-main.js.map": "/coping-skills-react/static/js/runtime-main.40a129cd.js.map",
     "static/js/2.ca789fef.chunk.js": "/coping-skills-react/static/js/2.ca789fef.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.40a129cd.js",
     "static/js/2.ca789fef.chunk.js",
     "static/css/main.5080d5f2.chunk.css",
-    "static/js/main.9cf255df.chunk.js"
+    "static/js/main.d937e4e7.chunk.js"
   ]
 }
