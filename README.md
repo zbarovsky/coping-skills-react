@@ -6,4 +6,4 @@ Well now you don't have to, the coping skills generator will give you a random c
 ## Tech Stack
 * React
 * TypeScript
-* The API is flask with a beautifulsoup web scraper.
+* The API is flask with a beautifulsoup web scraper. [Check it out here](https://github.com/zbarovsky/coping-skill-api)
