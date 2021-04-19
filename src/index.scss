@@ -51,7 +51,15 @@ ul {
     display: inline;
     padding: 0.5em;
     margin-right: 0.5em;
-    color: $baby-blue
+
+    a {
+      color: $baby-blue;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 }
 
@@ -76,6 +84,15 @@ ul {
   li {
     display: inline;
     padding: 0.5em;
+    
+    a {
+      color: $baby-blue;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 }
 

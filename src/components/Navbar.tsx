@@ -7,8 +7,12 @@ function Navbar() {
         <div className="nav-container">
             <div className='nav-ul'>
                 <ul>
-                    <li>Home</li>
-                    <li>Resources</li>
+                    <li>
+                        <Link to='/'>Home</Link>
+                    </li>
+                    <li>
+                        <Link to='/resources'>Resources</Link>
+                    </li>
                 </ul>
             </div>
         </div>

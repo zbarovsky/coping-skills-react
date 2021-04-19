@@ -10,16 +10,16 @@ function Footer() {
             <div className='footer-social-media'>
                 <ul>
                     <li>
-                        LinkedIn
+                        <a rel='noopener noreferrer' target='_blank' href='https://www.linkedin.com/in/zbarovsky/'>LinkedIn</a>
                     </li>
                     <li>
-                        GitHub
+                        <a rel='noopener noreferrer' target='_blank' href='https://github.com/zbarovsky'>GitHub</a>
                     </li>
                     <li>
-                        Twitter
+                        <a rel='noopener noreferrer' target='_blank' href='https://twitter.com/zbarovsky'>Twitter</a>
                     </li>
                     <li>
-                        Instagram
+                        <a rel='noopener noreferrer' target='_blank' href='https://www.instagram.com/zbarovsky/'>Instagram</a>
                     </li>
                 </ul>
             </div>
