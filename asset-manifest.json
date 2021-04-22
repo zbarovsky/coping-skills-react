@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/coping-skills-react/static/css/main.5080d5f2.chunk.css",
-    "main.js": "/coping-skills-react/static/js/main.d937e4e7.chunk.js",
-    "main.js.map": "/coping-skills-react/static/js/main.d937e4e7.chunk.js.map",
+    "main.css": "/coping-skills-react/static/css/main.ee4049a9.chunk.css",
+    "main.js": "/coping-skills-react/static/js/main.016f699e.chunk.js",
+    "main.js.map": "/coping-skills-react/static/js/main.016f699e.chunk.js.map",
     "runtime-main.js": "/coping-skills-react/static/js/runtime-main.40a129cd.js",
     "runtime-main.js.map": "/coping-skills-react/static/js/runtime-main.40a129cd.js.map",
-    "static/js/2.ca789fef.chunk.js": "/coping-skills-react/static/js/2.ca789fef.chunk.js",
-    "static/js/2.ca789fef.chunk.js.map": "/coping-skills-react/static/js/2.ca789fef.chunk.js.map",
+    "static/js/2.fa93ed9e.chunk.js": "/coping-skills-react/static/js/2.fa93ed9e.chunk.js",
+    "static/js/2.fa93ed9e.chunk.js.map": "/coping-skills-react/static/js/2.fa93ed9e.chunk.js.map",
     "index.html": "/coping-skills-react/index.html",
-    "static/css/main.5080d5f2.chunk.css.map": "/coping-skills-react/static/css/main.5080d5f2.chunk.css.map",
-    "static/js/2.ca789fef.chunk.js.LICENSE.txt": "/coping-skills-react/static/js/2.ca789fef.chunk.js.LICENSE.txt"
+    "static/css/main.ee4049a9.chunk.css.map": "/coping-skills-react/static/css/main.ee4049a9.chunk.css.map",
+    "static/js/2.fa93ed9e.chunk.js.LICENSE.txt": "/coping-skills-react/static/js/2.fa93ed9e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.40a129cd.js",
-    "static/js/2.ca789fef.chunk.js",
-    "static/css/main.5080d5f2.chunk.css",
-    "static/js/main.d937e4e7.chunk.js"
+    "static/js/2.fa93ed9e.chunk.js",
+    "static/css/main.ee4049a9.chunk.css",
+    "static/js/main.016f699e.chunk.js"
   ]
 }
